@@ -53,6 +53,20 @@ switch (choise) {
             isRunning = false;
         }
     break;
+
+    case '4':
+        (isRunning = false)
+        alert('Спасибо за игру')
+    break;
+
+    case null:
+        (isRunning = false)
+        alert('Спасибо за игру')
+    break;
+
+    default:
+        alert('Введен неверный пункт меню')
+    break;
 }
 
 }
