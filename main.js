@@ -33,6 +33,16 @@ switch (choise) {
             isRunning = false;
         }
     break;
+
+    case '2':
+        (happiness += 10);
+        (hunger -= 5);
+        (health -= 5);
+        if (hunger <= 0, happiness <= 0, health <= 0) {
+            alert('Вы проиграли')
+            isRunning = false;
+        }
+    break;
 }
 
 }
